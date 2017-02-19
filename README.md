@@ -1,73 +1,48 @@
-Quantum integration/staging tree
-================================
 
-http://www.quantum.org
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Quantum Developers
+<b>Quantum ( Quant )</b>
 
-What is Quantum?
-----------------
+QUANTUM WORLD'S FIRST CLOUD MANAGEMENT PLATFORM FOR THE BLOCKCHAIN​
 
-Quantum is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+<b>Specifications</b>
 
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
 
-For more information, as well as an immediately useable, binary version of
-the Quantum client sofware, see http://www.quantum.org.
+Algorithm - Scrypt 
 
-License
--------
+Type PoW 
 
-Quantum is released under the terms of the MIT license. See `COPYING` for more
-information or see http://opensource.org/licenses/MIT.
+Block halving :- 590000 blocks
 
-Development process
--------------------
+Total coin supply:- 124,210,526 ( 124 Million )
 
-Developers work in their own trees, then submit pull requests when they think
-their feature or bug fix is ready.
+100 Quant per block
 
-If it is a simple/trivial/non-controversial change, then one of the Quantum
-development team members simply pulls it.
+60 secs block targets
 
-If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion with the devs and community.
 
-The patch will be accepted if there is broad consensus that it is a good thing.
-Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see `doc/coding.txt`) or are
-controversial.
+<b>Introduction </b>
 
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/quantum-project/quantum/tags) are created
-regularly to indicate new official, stable release versions of Quantum.
+Quantum is P2P cloud data management platform that delivers data protection, search, analytics, compliance, and copy data management to hybrid cloud enterprises through blockchain technology .
+It is a distributed database on steroids: a self-verifying sequential storage scheme that can be used to immutably record transactions, ownership or identity, to negotiate and enforce contracts, and much more besides.
 
-Testing
--------
+The word quantum comes from the Lation word Quantus which means a discrete quantity of energy .
+Features
 
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test. Please be patient and help out, and
-remember this is a security-critical project where any mistake might cost people
-lots of money.
+Easy to Manage & Scale
 
-### Automated Testing
+Pay as You Grow
 
-Developers are strongly encouraged to write unit tests for new code, and to
-submit new unit tests for old code.
+Backup-as-a-Service​
 
-Unit tests for the core code are in `src/test/`. To compile and run them:
 
-    cd src; make -f makefile.unix test
+<b>Development process</b>
 
-Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
+Developers work in their own trees, then submit pull requests when they think their feature or bug fix is ready.
+If it is a more complicated or potentially controversial change, then the patch submitter will be asked to start a discussion with the devs and community.
+The patch will be accepted if there is broad consensus that it is a good thing. Developers should expect to rework and resubmit patches if the code doesn't match the project's coding conventions (see doc/coding.txt) or are controversial.
 
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
-    make -f Makefile.test
-    ./quantum-qt_test
+The master branch is regularly built and tested, but is not guaranteed to be completely stable. Tags are created regularly to indicate new official, stable release versions of Quantum .
 
+<b>Testing</b>
+
+Testing and code review is the bottleneck for development; we get more pull requests than we can review and test. Please be patient and help out, and remember this is a security-critical project where any mistake might cost people lots of money.
